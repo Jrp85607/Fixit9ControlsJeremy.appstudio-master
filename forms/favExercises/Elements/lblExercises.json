@@ -17,9 +17,9 @@
   "fontWeight": "",
   "height": "auto",
   "hidden": "",
-  "id": "lblFeelings",
+  "id": "lblExercises",
   "labelStyle": "text",
-  "left": 33,
+  "left": 238,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -42,7 +42,7 @@
   "right": "auto",
   "script": "",
   "style": "",
-  "top": 294,
+  "top": 328,
   "value": "",
   "width": "auto"
 }

@@ -9,6 +9,10 @@ Second Program
 
 
 
+btnFavExercises.onclick=function(){
+  ChangeForm(favExercises)
+}
 
-
-
+rbtFeelings.onclick=function(){
+  lblFeelings.value = `I would agree that you are a ${$("input[name=rbtFeelings]:checked").prop("value")} person too!` 
+}
