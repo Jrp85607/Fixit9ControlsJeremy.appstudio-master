@@ -12,9 +12,14 @@ favExercises.onshow=function(){
 
 selExercises.onfocusout=function(){
   let message = "You chose:" 
-  for (i = 0; i <= selExercises.text.length - 1; i++)
-  message = message + " "+ selExercises.text[i]
-  lblExercises.value = message    
+  if (selExercises.text.length == 2) {
+    for (i = 0; i <= selExercises.text.length - 1; i++)
+    message = message + " "+ selExercises.text[i]
+    lblExercises.value = message  
+    
+  } else {
+    lblExercises.value = `You did not pick the two core exercises.`
+  }
 }
 
 
